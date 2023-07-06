@@ -128,7 +128,7 @@ class Compu_Slider_Public
       <?php
       $output = ob_get_clean();
     } else {
-      esc_html_e('Sorry, no slide to show.');
+      echo 'Sorry, no slide to show.';
     }
 // Restore original Post Data.
     wp_reset_postdata();
