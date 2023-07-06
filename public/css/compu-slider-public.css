@@ -33,7 +33,12 @@
     overflow:hidden;
     height: auto;
 }
-
+@media screen and (min-width: 992px) {
+    .compu_slider_container{
+        max-height: 546px;
+        overflow: hidden;
+    }
+}
 @media screen and (max-width: 992px){
     .compu_slider_wrapper .swiper-pagination {
         bottom: 0;
